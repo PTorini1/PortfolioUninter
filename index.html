@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Sobre Mim</title>
+    <link href="style.css" rel="stylesheet" />
+    <link rel="icon" href="img/programmer-computer-expert-rgb-color-icon-vector.jpg">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+  </head>
+  <body class="estilo-corpo">
+    <div class="alinha-tudo">
+    <section class="menu-fixo">
+        <header class="cabecalho">
+          <h1>Sobre Mim</h1>
+        </header>
+        
+        <nav class="menu">
+          <ul class="lista">
+            <li class="item-lista"><a href="#sobre" class="link">Sobre Mim</a></li>
+            <li class="item-lista">
+              <a href="#portfolio" class="link">Portfólio</a>
+            </li>
+            <li class="item-lista">
+              <a href="#formacao" class="link">Formação</a>
+            </li>
+            <li class="item-lista">
+              <a href="#contato" class="link">Contato</a>
+            </li>
+          </ul>
+        </nav>
+    </section>
+
+
+      <main>
+        <div class="container">
+          <section id="sobre" class="section">
+            <h2>Sobre Mim</h2>
+            <p>
+              Bem-vindo ao meu portfolio! Descubra mais sobre minha carreira, meus hobbies e minha formação acadêmica.
+            </p>
+            <p>
+              Sou um estudante de programação apaixonado por tecnologia.
+              Estou sempre disposto a aprender coisas novas e enfrentar novos desafios. 
+              Atualmente estou trabalhando com C# | .NET Framework | SQL Server.
+            </p>
+            <p>
+              Gosto de passar tempo assintindo filmes e séries, 
+            </p>
+          </section>
+
+          <section id="portfolio" class="section">
+            <h2>Portfólio</h2>
+            <ul>
+              <li>Aplicativo desenvolvido em Flutter e Java para uma cantina de escola com o
+                intuito de facilitar a compra dos produtos por parte dos alunos e a organização
+                geral por parte dos funcionários. Link: <a href="https://github.com/PTorini1/flutter-cafeteria-app" target="_blank">https://github.com/PTorini1/flutter-cafeteria-app</a></li> <br>
+                <img src="https://media.discordapp.net/attachments/1024051503339683994/1118941279515054100/91a936d8-1174-4b5d-891c-959b22435393.png?ex=66d54005&is=66d3ee85&hm=56a2e205ad7783b4a76d384475098a378e7efbd7b094bcf9d9501708aa75bddf&=&format=webp&quality=lossless&width=260&height=462"/>
+                <img src="https://media.discordapp.net/attachments/1024051503339683994/1118943751419723867/ccac5593-dc09-4c69-b2a1-40008df934b5.png?ex=66d54253&is=66d3f0d3&hm=6ced1a9bd9858de67b00ee7607a810dabc10c54ef36dda3cbc881df08d09900d&=&format=webp&quality=lossless&width=260&height=462"/>
+                <img src="https://media.discordapp.net/attachments/1024051503339683994/1118939891972190248/92e57eb4-a453-4efb-8b8a-263f96c32f56.png?ex=66d53ebb&is=66d3ed3b&hm=cb385b2dab3917a163cf0312ed066e1acc1000b8d616f1fa5f2e1e110257c035&=&format=webp&quality=lossless&width=260&height=462"/>
+              <li>Desenvolvimento de uma intranet para a unidade Diadema do SENAI-SP a fim
+                de auxiliar as secretárias da escola a encontrar informações de forma mais rápida
+                e prática. Link: <a href="https://github.com/PTorini1/senai-intranet" target="_blank">https://github.com/PTorini1/senai-intranet</a></li>
+            </ul>
+          </section>
+
+          <section id="formacao" class="section">
+            <h2>Formação Acadêmica</h2>
+            <ul>
+              <li>
+                Tecnólogo, Análise e Desenvolvimento de Sistemas: 02/2024 - 08/2026 UNINTER - Mauá, SP
+              </li><br />
+              <li>Especialização Profissional, Desenvolvimento Full-Stack: 02/2024 - 12/2024
+                SENAI Paulo Skaf – São Caetano do Sul, SP</li><br />
+              <li>Técnico, Desenvolvimento de Sistemas: 01/2022 - 06/2023
+                SENAI Manuel Garcia Filho - Diadema, SP</li>
+            </ul>
+          </section>
+
+          <section id="contato" class="section">
+            <h2>Contato</h2>
+            <p>Você pode me contatar pelo e-mail: <a href="mailto:pedrotorini123@gmail.com">pedrotorini123@gmail.com</a></p>
+            <p>Ou pelo Linkedin: <a href="https://www.linkedin.com/in/pedro-torini-8a694b228/" target="_blank">Pedro Torini</a></p>
+
+            <form action="https://formsubmit.co/pedrotorini123@gmail.com" method="POST">
+              <h3>Formulário</h3>
+              <div>
+                <label for="nome">Nome:</label>
+                <input type="text" id="nome" />
+              </div>
+              <div>
+                <label for="email">E-mail:</label>
+                <input type="email" id="email" />
+              </div>
+              <div>
+                <label for="mensagem">Mensagem:</label>
+                <input type="text" id="mensagem" />
+              </div>
+              <div>
+                <button type="submit" id="enviar" name="enviar">Enviar</button>
+              </div>
+
+              <input type="hidden" name="_next" value>
+              <input type="hidden" name="_captcha" value="false">
+            </form>
+          </section>
+        </div>
+      </main>
+
+      <footer class="footer">
+        <p>© Copyright Pedro H S Torini - <script>document.write(new Date().getFullYear());</script></p>
+      </footer>
+    </div>
+  </body>
+</html>
